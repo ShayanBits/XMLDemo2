@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<library xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	 xsi:noNamespaceSchemaLocation='library.xsd'>
+
+  <book>
+    <author-ref>J.K.Rowling</author-ref>
+    <title>Harry Potter und der Stein der Weisen</title>
+    <language>de</language>
+    <year>1998</year>
+  </book>
+
+  <book>
+    <author-ref>J.K.Rowling</author-ref>
+    <title>Harry Potter und die Kammer des Schreckens</title>
+    <language>de</language>
+    <year>1999</year>
+  </book>
+
+  <book>
+    <author-ref>T.Pratchett</author-ref>
+    <title>The Colour of Magic</title>
+    <year>1983</year>
+  </book>
+
+  <book>
+    <author-ref>T.Pratchett</author-ref>
+    <author-ref>N.Gaiman</author-ref>
+    <title>Good Omens: The Nice and Accurate Prophecies...</title>
+    <language>en</language>
+  </book>
+
+  <author id="J.K.Rowling">
+    <last-name>Rowling</last-name>
+    <first-name>Joanne K.</first-name>
+  </author>
+
+  <author id="N.Gaiman">
+    <last-name>Gaiman</last-name>
+    <first-name>Neil</first-name>
+  </author>
+
+  <author id="T.Pratchett">
+    <last-name>Pratchett</last-name>
+    <first-name>Terry</first-name>
+  </author>
+
+</library>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/libraryScheme"
+	xmlns:tns="http://www.example.org/libraryScheme"
+	elementFormDefault="qualified">
+
+	<complexType name="libraryType">
+		<sequence>
+			<element name="book" type="tns:bookType" maxOccurs="unbounded">
+			</element>
+			<element name="author" type="tns:authorType" maxOccurs="unbounded">
+			</element>
+		</sequence>
+	</complexType>
+
+	<complexType name="bookType">
+		<sequence>
+			<element name="title" type="string"></element>
+			<element name="language" type="tns:languageType"></element>
+			<element name="year" type="tns:yearType"></element>
+		</sequence>
+	</complexType>
+
+	<complexType name="authorType">
+		<sequence>
+			<element name="last-name" type="string"></element>
+			<element name="first-name" type="string"></element>
+		</sequence>
+		<attribute name="id" type="ID" use="required"></attribute>
+	</complexType>
+	<simpleType name="yearType">
+		<restriction base="integer">
+		<pattern value="[1-3][0-9][0-9][0-9]"></pattern>
+		</restriction> 
+	</simpleType>
+	<simpleType name="languageType">
+		<restriction base="string">
+		<pattern value="de|en|fr|fa|ar|[a-z][a-z]"></pattern>
+		</restriction> 
+	</simpleType>
+	
+
+	<element name="library" type="tns:libraryType" />
+</schema>

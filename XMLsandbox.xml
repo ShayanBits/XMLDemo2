@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE XMLFile SYSTEM "XMLType.dtd"> 
+<XMLFile>
+	<header>
+		<title tid="t1">
+			<subtitle>and a subtitle</subtitle>
+		</title>
+		<title tid="t2">
+			<subtitle>and a subtitle</subtitle>
+		</title>
+	</header>
+	<header2>
+		<car carID="c1" >test</car>
+		<car carID="c2"  model="AUDI">test</car>
+	</header2>
+</XMLFile>

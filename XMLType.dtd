@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!ELEMENT XMLFile (header,header2)>
+<!ELEMENT header (title+)>
+<!ELEMENT header2 (car+)>
+<!ELEMENT title (subtitle)>
+<!ELEMENT subtitle (#PCDATA)>
+<!ELEMENT car (#PCDATA)>
+<!ATTLIST title tid ID #REQUIRED>
+<!ATTLIST car carID ID #REQUIRED> 
+<!ATTLIST car model (AUDI|BMW|BENZ|SEAT) "SEAT"> 
