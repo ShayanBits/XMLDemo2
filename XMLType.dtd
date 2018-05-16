@@ -9,4 +9,4 @@
 <!ELEMENT car (#PCDATA)>
 <!ATTLIST title tid ID #REQUIRED>
 <!ATTLIST car carID ID #REQUIRED> 
-<!ATTLIST car model (AUDI|BMW|BENZ|SEAT) "SEAT"> 
+<!ATTLIST car model (AUDI|BMW|BENZ|SEAT) "SEAT">
