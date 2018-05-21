@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:library xmlns:tns="http://www.example.org/libraryScheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/libraryScheme libraryScheme.xsd ">
+  <tns:book>
+    <tns:title>Titel1</tns:title>
+    <tns:language>de</tns:language>
+    <tns:year>1500</tns:year>
+  </tns:book>
+  <tns:book>
+    <tns:title>Einfuerung in Objektorientiert Programmierung</tns:title>
+    <tns:language>fa</tns:language>
+    <tns:year>1992</tns:year>
+  </tns:book>
+  <tns:book>
+    <tns:title>JQuery</tns:title>
+    <tns:language>en</tns:language>
+    <tns:year>2000</tns:year>
+  </tns:book>
+  <tns:book>
+    <tns:title>XML in nutshell </tns:title>
+    <tns:language>fa</tns:language>
+    <tns:year>2018</tns:year>
+  </tns:book>
+  <tns:author id="idvalue0">
+    <tns:last-name>Sh</tns:last-name>
+    <tns:first-name>Shayan</tns:first-name>
+  </tns:author>
+  <tns:author id="idvalue1">
+    <tns:last-name>Mustermann</tns:last-name>
+    <tns:first-name>Max</tns:first-name>
+  </tns:author>
+  <tns:author id="idvalue3">
+    <tns:last-name>MMF</tns:last-name>
+    <tns:first-name>Max</tns:first-name>
+  </tns:author>
+  
+</tns:library>
